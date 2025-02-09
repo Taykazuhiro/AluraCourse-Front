@@ -80,7 +80,7 @@ body {
 }
 
 .apresentacao__imagem {
-    max-width:40%; 
+    max-width: 40%; 
     height: auto;
     border-radius: 6%;
 }
@@ -124,7 +124,7 @@ body {
 
 @media (max-width:1200px){
     .cabecalho{
-        padding: 10%;
+        padding: 10% 0 5% 0 ;
     }
     
     .cabecalho__menu {
@@ -134,6 +134,7 @@ body {
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+        gap: 
     }
 
     .apresentacao__conteudo{
@@ -141,6 +142,6 @@ body {
     }
 
     .apresentacao__imagem {
-        max-width: 30%;
+        width: auto;
     }
 }
